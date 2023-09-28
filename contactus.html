@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat&family=Roboto&family=Roboto+Mono&family=Simonetta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <style>
+        main{
+            flex-direction: initial;
+            justify-content: space-around;
+            align-items: center;
+        }
+        main div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        main div input{
+            margin-top: 1.5vh;
+            margin-bottom: 1.5vh;
+            border: 1px solid #31c48d;
+            border-radius: .2rem;
+            padding: 1vh;
+        }
+        main div input[type='submit']{
+            color: white;
+            background-color: #31c48d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/agridetect_logo.png" alt="agridetect_logo">
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>Contact Us</h1>
+            <ul>
+                <li>
+                    <a href="https://facebook.com/">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/">Instagram</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <input type="text" placeholder="Full name">
+            <input type="email" placeholder="exemple@exemple.com">
+            <textarea name="message" id="" cols="30" rows="10">Your message...</textarea>
+            <input type="submit" value="Send">
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © <span></span> All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
