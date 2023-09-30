@@ -96,3 +96,9 @@ footer{
     align-items: center;
     font-family: 'Anonymous Pro', monospace;
 }
+
+@media screen and (max-width: 614px) {
+    main{
+        min-height: 80vh;
+    }   
+}
