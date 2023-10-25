@@ -1,9 +1,12 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 header{
+    width: 80vw;
     height: 10vh;
+    position: fixed;
     background-color: #D3EBCD;
     display: flex;
     justify-content: space-between;
@@ -31,7 +34,7 @@ header div ul li a{
     font-size: larger;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    padding: 2vw;
+    padding: 1.7vw;
 }
 header div ul a:hover{
     color: white;
@@ -39,7 +42,7 @@ header div ul a:hover{
 }
 
 main{
-    height: 80vh;
+    min-height: 90vh;
     padding-left: 10vw;
     padding-right: 10vw;
     background-color: #D3EBCD;
@@ -50,7 +53,13 @@ main{
 main h1{
     margin-top: 1vh;
     margin-bottom: 2vh;
+    padding: 1vh;
+    width: 80vw;
+    text-align: center;
+    border-radius: 1vh;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
+    background-color: #13aa52;
 
 }
 main h2{
@@ -86,6 +95,25 @@ main ul li a {
 main ul li a:hover {
     color: white;
     background-color: #31c48d;
+}
+button{
+    width: 10vw;
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    text-align: center;
+    padding: 10px 25px;
+}
+.button-37:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
 }
 
 footer{

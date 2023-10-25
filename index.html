@@ -12,6 +12,63 @@
         main{
             align-items: center;
         }
+        main .intro{
+            height: 90vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        main .intro div{
+            width: 40vw;
+        }
+        .intro h2{
+            font-size: 5rem;
+        }
+        .intro p{
+            width: 35vw;
+            font-size: 1.5rem;
+        }
+        .intro img{
+            width: 40vw;
+            border-radius: 1vw;
+        }
+        .introText{
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        main .products{
+            width: 90vw;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 3vw;
+        }
+        .products div{
+            width: 27vw;
+        }
+        .products p{
+            margin-bottom: 2vh;
+        }
+        main .products img{
+            width: 27vw;
+            border-radius: 1vw;
+        }
+        main .services{
+            width: 90vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        .services div{
+            width: 43vw;
+        }
+        .services p{
+            margin-bottom: 2vh;
+        }
+        main .services img{
+            width: 43vw;
+            border-radius: 1vw;
+        }
     </style>
 </head>
 <body>
@@ -26,11 +83,57 @@
         </div>
     </header>
     <main>
-        <h1>Coming soon...</h1>
+        <div class="intro">
+            <div class="introText">
+                <h2>Digitalizing Agriculture</h2>
+                <p>Embrace the era of data-driven agriculture with AgriDetect. Our mission is to pioneer AI and IoT solutions that empower a climate-resilient agricultural value chain, ultimately unlocking maximum global yields through the transformative potential of technology.</p>
+                <button>Discovre</button>
+            </div>
+            <div>
+                <img src="images/DigitalizingAgriculture.jpg" alt="DigitalizingAgriculture">
+            </div>
+        </div>
+        <h1>Our Products</h1>
+        <div class="products">
+            <div>
+                <img src="images/filiz.png" alt="filiz">
+                <h2>Agricultural Sensor Station</h2>
+                <p>Filiz stands as an IoT Sensor Station designed to empower farmers by offering comprehensive insights into soil and weather conditions within their fields. By harnessing real-time data, Filiz facilitates precise decision-making, such as optimizing irrigation, mitigating the risk of diseases and frost, and enabling informed choices when it comes to pesticide applications.</p>
+                <button>Learn more</button>
+            </div>
+            <div>
+                <img src="images/frame.png" alt="frame">
+                <h2>Digital Pest Tracking Station</h2>
+                <p>PestTrap is an innovative IoT-based pest-tracking station that leverages the power of machine learning to accurately identify and quantify pests in real-time. This cutting-edge technology offers a robust solution for enhancing crop yields and mitigating the financial repercussions associated with pest-induced crop damage.</p>
+                <button>Learn more</button>
+            </div>
+            <div>
+                <img src="images/soilscanner.png" alt="soilscanner">
+                <h2>Digital Soil Analysis Device</h2>
+                <p>The SoilScanner is a cutting-edge digital soil analysis device, designed to deliver real-time insights into soil nutrient levels while precisely calculating the ideal fertilizer type and quantity required. Complemented by a user-friendly mobile app, this innovative tool goes a step further by generating personalized fertilization programs, guaranteeing the utmost soil vitality and maximizing crop yields.</p>
+                <button>Learn more</button>
+            </div>
+        </div>
+        <h1>Our Services</h1>
+        <div class="services">
+            <div>
+                <img src="images/AI Models Integration.jpg" alt="AI">
+                <h2>AI Models Integration</h2>
+                <p>Our offerings encompass the integration of AI models tailored for satellite-based crop health monitoring, pest and disease management, resource optimization, and market intelligence.</p>
+                <button>Learn more</button>
+            </div>
+            <div>
+                <img src="images/Agricultural API Marketplace.jpg" alt="Agricultural">
+                <h2>Agricultural API Marketplace</h2>
+                <p>Explore the Agricultural API Marketplace, where you can find tailored API solutions crafted to fulfill your unique business requirements. Immerse yourself in the world of effortless API integration and efficient management.</p>
+                <button>Learn more</button>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Copyright © <span id="year"></span> All Rights Reserved.</p>
     </footer>
     <script src="index.js"></script>
+    <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.42.0/gradio.js"> </script> 
 </body>
 </html>
